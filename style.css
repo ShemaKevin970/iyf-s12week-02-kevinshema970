@@ -1,0 +1,17 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;line-height:1.6;color:#333}
+.header{background:#0f172a;color:#fff;padding:1rem}
+.navbar{display:flex;flex-direction:column;justify-content:space-between;align-items:center;gap:1rem}
+.logo{font-size:1.5rem}
+.nav-links{display:flex;list-style:none;gap:1rem;flex-wrap:wrap}
+.nav-links a{color:#fff;text-decoration:none}
+.hero{text-align:center;padding:3rem 1rem}
+.btn{display:inline-block;margin-top:1rem;padding:.7rem 1.5rem;background:#38bdf8;color:#000;text-decoration:none;border-radius:5px}
+.section{padding:2rem 1rem;max-width:1200px;margin:0 auto}
+.skills-grid{display:flex;flex-wrap:wrap;gap:1rem;margin-top:1rem}
+.skill-card{background:#e0f2fe;padding:1rem;border-radius:8px;flex:1 1 120px;text-align:center}
+.projects-grid{display:grid;grid-template-columns:1fr;gap:1.5rem;margin-top:1rem}
+.project-card{background:#f1f5f9;padding:1.5rem;border-radius:8px;border:1px solid #cbd5e1}
+.footer{background:#0f172a;color:#fff;text-align:center;padding:1.5rem}
+@media(min-width:768px){.navbar{flex-direction:row}.projects-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1024px){.projects-grid{grid-template-columns:repeat(3,1fr)}.section{padding:3rem 2rem}.hero h2{font-size:2.5rem}}
